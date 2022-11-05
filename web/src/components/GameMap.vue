@@ -1,7 +1,7 @@
 <template>
     <div ref="parent" class="gamemap">  <!--ref产生关联-->
         <!--搜索mdn，可以有canvas的用法,还可以搜很多前端标签-->
-        <canvas ref="canvas"></canvas>   <!--创建画布，游戏写到画布里面-->
+        <canvas ref="canvas" tabindex="0"></canvas>   <!--创建画布，游戏写到画布里面-->
     </div>
 </template>
 
